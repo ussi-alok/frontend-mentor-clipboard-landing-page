@@ -2,6 +2,8 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
+    font-family: baiJamjuree;
 }
 :root{
     --clr-primary-strong-cyan: hsl(171, 66%, 44%);
@@ -12,4 +14,184 @@
 @font-face {
     font-family: baiJamjuree;
     src: url(./BaiJamjuree-Medium.ttf);
+}
+
+.wrapper_history{
+    background: url(./images/bg-header-desktop.png) top/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    gap: 2rem;
+
+}
+h1{
+    font-size: 3rem;
+    color: var(--clr-neutral-dark-grayish-blue);
+}
+.app_function{
+    color: var(--clr-neutral-grayish-blue);
+    width: 40%;
+    text-align: center;
+}
+
+button{
+    /* height: 40px; */
+    padding: 0.8rem 1.4rem;
+    border-radius: 1.5rem;
+    border:none;
+}
+.ios_btn{
+    background-color: var(--clr-primary-strong-cyan);
+}
+.mac_btn{
+    background-color: var(--clr-primary-light-blue);
+    margin-left:0.8rem;
+}
+
+
+.snippets_details{
+    /* width: 40%; */
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*below is for all h2 elment style*/
+h2{
+    font-size: 2rem;
+    color: var(--clr-neutral-dark-grayish-blue);
+   
+}
+.snippets{
+    margin: 5rem 0 1.2rem 0;
+}
+.app_action{
+    width: 45%;
+    /* background: red; */
+    margin-bottom: 4rem;
+    text-align: center;
+    color: var(--clr-neutral-grayish-blue);
+}
+
+.search_sync{
+    position: relative;
+    padding: 0.4rem 0;
+    margin-bottom: 5rem;
+}
+.search_sync>img{
+    position: absolute;
+    left: -10%;
+}
+.search_sync>h2{
+    left:45%;
+    position: relative;
+    margin-top: 4rem;
+}
+.search_sync>p{
+    left:45%;
+    position:relative;
+    margin-bottom: 2.5rem;
+    width: 30%;
+    color: var(--clr-neutral-grayish-blue);
+}
+
+
+.wrapp_accesibility{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.accesibility{
+    text-align: center;
+}
+.wrapp_accesibility>p{
+    text-align:center;
+    /* width: 40%; */
+    color: var(--clr-neutral-grayish-blue);
+}
+
+.features{
+    display: flex;
+    margin: 4rem 0;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: center;
+    /* background: #000; */
+}
+.wrapp_blacklist,
+.wrapp_snippet,
+.wrapp_preview{
+    width: 25%;
+    /* flex-basis: 25%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 1rem;
+}
+.features img{
+    margin-bottom: 2rem;
+}
+.features h4{
+    margin-bottom: 1rem;
+}
+.features p{
+    text-align:center;
+}
+
+.sponsored{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.request{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+}
+.buttons{
+    /* background-color: black; */
+}
+.clip_ios_mac{
+    text-align: center;
+    width: 40%;
+}
+
+/*footer style goes down here*/
+footer{
+    background-color:rgba(231, 228, 228);
+    padding:1.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+img[alt="logo"]{
+    /* background: #000; */
+    width: 4rem;
+    height: auto;
+    align-self: center;
+}
+ul{
+    list-style: none;
+    /* width: 30%; */
+
+    /* background: #a85555; */
+    display: grid;
+    grid: 1fr 1fr  /repeat(3,1fr);
+    column-gap: 2rem;
+    /* gap: 2rem; */
+}
+.icons{
+    align-self: flex-end;
+    display: flex;
+    width: 10%;
+    gap: 1.5rem;
+    align-items: center;
 }
